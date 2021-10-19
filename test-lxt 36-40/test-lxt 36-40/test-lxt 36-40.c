@@ -82,3 +82,38 @@
 //}
 
 //BC39
+//#include <stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	int i = 0;
+//	int arr[40];
+//	scanf("%d", &a);
+//	for (i = 0; i<a; i++)
+//	{
+//		scanf("%d", &arr[i]);          //循环输入成绩
+//	}
+//	for (i = 0; i<a - 1; i++)          //换行大循环 5次 
+//	{
+//		int j = 0;
+//		int flag = 0;                   //判断条件
+//		for (j = 0; j<a - 1 - i; j++)   //行内排序
+//		{
+//			int temp = 0;
+//			if (arr[j]<arr[j + 1])
+//			{
+//				temp = arr[j + 1];
+//				arr[j + 1] = arr[j];
+//				arr[j] = temp;
+//				flag = 1;                //判断条件
+//			}
+//		}
+//		if (flag == 0)                   //如果=0，则不需要排序，已经有序，直接打印
+//			break;
+//	}
+//	for (i = 0; i<5; i++)
+//	{
+//		printf("%d ", arr[i]);           //冒泡排序
+//	}
+//	return 0;
+//}
