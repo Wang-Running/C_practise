@@ -54,7 +54,46 @@
 //	return 0;
 //}
 
-//BC53
+//BC53  计算一元二次方程
+//#include<stdio.h>
+//#include<math.h>
+//int main()
+//{
+//	float a, b, c, x1, x2;
+//
+//	while (~scanf("%f%f%f", &a, &b, &c))
+//	{
+//		if (a)
+//		{
+//			float delta = b * b - 4 * a * c;
+//
+//			if (delta == 0)
+//			{
+//				x1 = (-b + sqrt(delta)) / (2 * a);
+//				printf("x1=x2=%.2f\n", x1);
+//			}
+//
+//			else if (delta > 0)
+//			{
+//				x1 = (-b - sqrt(delta)) / (2 * a);
+//				x2 = (-b + sqrt(delta)) / (2 * a);
+//				printf("x1=%.2f;x2=%.2f\n", x1, x2);
+//			}
+//
+//			else if (delta < 0)
+//			{
+//				x1 = -b / (2 * a);
+//				x2 = sqrt(-delta) / (2.0 * a);
+//				printf("x1=%.2f-%.2fi;", x1, x2);
+//				printf("x2=%.2f+%.2fi\n", x1, x2);
+//			}
+//		}
+//		else
+//			printf("Not quadratic equation\n");
+//	}
+//	return 0;
+//}
+
 
 
 //BC54
