@@ -1,9 +1,10 @@
-﻿生成启动时间为 2021/12/5 21:08:18。
+﻿生成启动时间为 2022/3/4 21:12:37。
      1>项目“D:\C_practise\C_practise\test-lxt 51-55\test-lxt 51-55\test-lxt 51-55.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\vs2013\安装后2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "test-lxt 51-55.c"
          test-lxt 51-55.c
-     1>d:\c_practise\c_practise\test-lxt 51-55\test-lxt 51-55\test-lxt 51-55.c(108): warning C4101: “day”: 未引用的局部变量
+     1>d:\c_practise\c_practise\test-lxt 51-55\test-lxt 51-55\test-lxt 51-55.c(158): warning C4013: “strcpy”未定义；假设外部返回 int
+     1>d:\c_practise\c_practise\test-lxt 51-55\test-lxt 51-55\test-lxt 51-55.c(157): warning C4101: “c”: 未引用的局部变量
        Link:
          D:\vs2013\安装后2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C_practise\C_practise\test-lxt 51-55\Debug\test-lxt 51-55.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C_practise\C_practise\test-lxt 51-55\Debug\test-lxt 51-55.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C_practise\C_practise\test-lxt 51-55\Debug\test-lxt 51-55.lib" /MACHINE:X86 "Debug\test-lxt 51-55.obj"
          test-lxt 51-55.vcxproj -> D:\C_practise\C_practise\test-lxt 51-55\Debug\test-lxt 51-55.exe
@@ -11,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:00.51
+已用时间 00:00:00.56

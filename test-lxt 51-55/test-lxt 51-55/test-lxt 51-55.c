@@ -102,39 +102,66 @@
 //每年的1，3，5，7，8，10，12月都是31天
 //然后计算2月的天数
 //2月的天数有两种，闰年为29天，非闰年28天
-#include <stdio.h>
-int main()
-{
-	int year, month, day;
-	while (scanf("%d %d", &year, &month) != EOF)
-	{
-		switch (month)
-		{
-		case 1:
-		case 3:
-		case 5:
-		case 7:
-		case 8:
-		case 10:
-		case 12:
-			printf("31\n");
-			break;
-		case 4:
-		case 6:
-		case 9:
-		case 11:
-			printf("30\n");
-			break;
-		default:
-			if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
-			{
-				printf("29\n");
-			}
-			else
-			{
-				printf("28\n");
-			}
-		}
-	}
-	return 0;
-}
+//#include <stdio.h>
+//int main()
+//{
+//	int year, month, day;
+//	while (scanf("%d %d", &year, &month) != EOF)
+//	{
+//		switch (month)
+//		{
+//		case 1:
+//		case 3:
+//		case 5:
+//		case 7:
+//		case 8:
+//		case 10:
+//		case 12:
+//			printf("31\n");
+//			break;
+//		case 4:
+//		case 6:
+//		case 9:
+//		case 11:
+//			printf("30\n");
+//			break;
+//		default:
+//			if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
+//			{
+//				printf("29\n");
+//			}
+//			else
+//			{
+//				printf("28\n");
+//			}
+//		}
+//	}
+//	return 0;
+//}
+
+
+//BC55
+
+
+//小练习
+//#include <stdio.h>
+//int main() {
+//	int a = 5, b = 4, c = 3, d;
+//	d = (a > b > c);
+//	printf("%d\n", d);
+//}
+
+//int main() {
+//	char x = '1', y = '3';
+//	printf("%c,", y++);
+//	printf("%d\n", y - x);
+//	return 0;
+//}
+
+//int main() {
+//	char c, s[20];
+//	strcpy(s, "Hello,World");
+//	printf("s[]=%6.9s\n", s);
+//	return 0;
+//}
+//%6.9：不少于6个字符，不多于9个，超过九结束
