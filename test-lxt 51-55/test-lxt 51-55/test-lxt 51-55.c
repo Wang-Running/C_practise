@@ -94,6 +94,22 @@
 //	return 0;
 //}
 
+//BC54Å£Å£µÄÅĞ¶ÏÌâ
+//#include <stdio.h>
+//int main()
+//{
+//	int l = 0;
+//	int r = 0;
+//	int x = 0;
+//	scanf("%d %d %d", &x, &l, &r);
+//	if ((x >= l) && (x <= r))
+//	{
+//		printf("true\n");
+//	}
+//	else
+//		printf("false\n");
+//	return 0;
+//}
 
 
 //BC54
@@ -141,6 +157,21 @@
 
 
 //BC55
+//ÅĞ¶ÏÈòÄê
+//#include <stdio.h>
+//int main()
+//{
+//	int year = 0;
+//	scanf("%d", &year);
+//	if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+//	{
+//		printf("yes\n");
+//	}
+//	else
+//		printf("no\n");
+//	return 0;
+//}
+
 
 
 //Ğ¡Á·Ï°
